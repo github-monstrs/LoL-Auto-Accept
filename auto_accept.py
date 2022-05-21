@@ -30,7 +30,7 @@ def checkGameAvailableLoop():
         if pos[0] != -1:
             pyautogui.click((pos[0] - wOffset)+ 89, pos[1] + 31)
             print("Game accepted!")
-            time.sleep(10)
+            time.sleep(10.5)
             break
         
         time.sleep(TIMELAPSE)
